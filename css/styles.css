@@ -4,6 +4,38 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
   }
+
+  nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #2099C3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  color: #92D7FF;
+  transition: 0.5s;
+}
   
   h1 {
     color: #265C83;
@@ -41,6 +73,39 @@ body {
     background-image: linear-gradient(to right, white, #92D7FF, white);
     width: 40%;
   }
+
+  .balloon-image {
+    width: 60px;
+    position: absolute;
+    left: calc(40% - 62px);
+    bottom: 400px;
+    animation-name: balloon-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes balloon-animation {
+    0% {
+        bottom: 100px;
+    }
+    50% {
+        bottom: 110px;
+    }
+    100% {
+        bottom: 100px;
+    }
+}
+
+.stars {
+  position: absolute;
+  right: 400px;
+  width: 100px;
+}
+
+.cloud {
+  position: absolute;
+  width: 150px;
+}
   
   .top-container {
     background-color: #E5F4FB;
