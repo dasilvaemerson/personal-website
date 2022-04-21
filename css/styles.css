@@ -127,20 +127,32 @@ nav li a:hover {
     margin-top: 50px;
   }
   
-  .skill-row {
+  .interest-row {
     width: 50%;
     margin: 100px auto;
     text-align: left;
     line-height: 2;
   }
   
-  .skill-img1 {
+  .interest-img1 {
     width: 25%;
     float: left;
     margin-right: 30px;
   }
   
-  .skill-img2 {
+  .interest-img2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+
+  .interest-img3 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .interest-img4 {
     width: 25%;
     float: right;
     margin-left: 30px;
