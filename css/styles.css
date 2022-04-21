@@ -75,7 +75,7 @@ nav li a:hover {
   }
 
   .balloon-image {
-    width: 60px;
+    width: 4%;
     position: absolute;
     left: calc(40% - 62px);
     bottom: 400px;
@@ -99,12 +99,12 @@ nav li a:hover {
 .stars {
   position: absolute;
   right: 400px;
-  width: 100px;
+  width: 7%;
 }
 
 .cloud {
   position: absolute;
-  width: 150px;
+  width: 10%;
 }
   
   .top-container {
@@ -119,7 +119,7 @@ nav li a:hover {
   }
 
   .mountain-img {
-    width: 800px;
+    width: 50%;
     margin-top: 0;
   }
   
